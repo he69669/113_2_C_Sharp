@@ -3,14 +3,14 @@
     partial class Form1
     {
         /// <summary>
-        /// Required designer variable.
+        /// 必需的設計工具變數。
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        /// Clean up any resources being used.
+        /// 清理所有正在使用的資源。
         /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        /// <param name="disposing">如果應釋放託管資源，則為 true。</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -20,11 +20,10 @@
             base.Dispose(disposing);
         }
 
-        #region Windows Form Designer generated code
+        #region Windows Form 設計工具產生的程式碼
 
         /// <summary>
-        /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
+        /// 設計工具支援所需的方法 - 請勿使用程式碼編輯器修改此方法的內容。
         /// </summary>
         private void InitializeComponent()
         {
@@ -54,34 +53,34 @@
             this.carInfoGroupBox.Size = new System.Drawing.Size(200, 105);
             this.carInfoGroupBox.TabIndex = 0;
             this.carInfoGroupBox.TabStop = false;
-            this.carInfoGroupBox.Text = "Car Information";
+            this.carInfoGroupBox.Text = "汽車資訊";
             // 
             // makePromptLabel
             // 
             this.makePromptLabel.AutoSize = true;
             this.makePromptLabel.Location = new System.Drawing.Point(34, 22);
             this.makePromptLabel.Name = "makePromptLabel";
-            this.makePromptLabel.Size = new System.Drawing.Size(37, 13);
+            this.makePromptLabel.Size = new System.Drawing.Size(41, 13);
             this.makePromptLabel.TabIndex = 0;
-            this.makePromptLabel.Text = "Make:";
+            this.makePromptLabel.Text = "廠牌：";
             // 
             // yearPromptLabel
             // 
             this.yearPromptLabel.AutoSize = true;
             this.yearPromptLabel.Location = new System.Drawing.Point(34, 48);
             this.yearPromptLabel.Name = "yearPromptLabel";
-            this.yearPromptLabel.Size = new System.Drawing.Size(32, 13);
+            this.yearPromptLabel.Size = new System.Drawing.Size(41, 13);
             this.yearPromptLabel.TabIndex = 1;
-            this.yearPromptLabel.Text = "Year:";
+            this.yearPromptLabel.Text = "年份：";
             // 
             // mileagePromptLabel
             // 
             this.mileagePromptLabel.AutoSize = true;
             this.mileagePromptLabel.Location = new System.Drawing.Point(19, 74);
             this.mileagePromptLabel.Name = "mileagePromptLabel";
-            this.mileagePromptLabel.Size = new System.Drawing.Size(47, 13);
+            this.mileagePromptLabel.Size = new System.Drawing.Size(53, 13);
             this.mileagePromptLabel.TabIndex = 2;
-            this.mileagePromptLabel.Text = "Mileage:";
+            this.mileagePromptLabel.Text = "里程數：";
             // 
             // makeTextBox
             // 
@@ -110,7 +109,7 @@
             this.addButton.Name = "addButton";
             this.addButton.Size = new System.Drawing.Size(75, 35);
             this.addButton.TabIndex = 1;
-            this.addButton.Text = "Add Car to List";
+            this.addButton.Text = "新增汽車";
             this.addButton.UseVisualStyleBackColor = true;
             this.addButton.Click += new System.EventHandler(this.addButton_Click);
             // 
@@ -128,7 +127,7 @@
             this.displayButton.Name = "displayButton";
             this.displayButton.Size = new System.Drawing.Size(75, 35);
             this.displayButton.TabIndex = 3;
-            this.displayButton.Text = "Display Car List";
+            this.displayButton.Text = "顯示清單";
             this.displayButton.UseVisualStyleBackColor = true;
             this.displayButton.Click += new System.EventHandler(this.displayButton_Click);
             // 
@@ -142,7 +141,7 @@
             this.Controls.Add(this.addButton);
             this.Controls.Add(this.carInfoGroupBox);
             this.Name = "Form1";
-            this.Text = "Car List";
+            this.Text = "汽車清單";
             this.carInfoGroupBox.ResumeLayout(false);
             this.carInfoGroupBox.PerformLayout();
             this.ResumeLayout(false);
